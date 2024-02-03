@@ -4,7 +4,7 @@
   "description": "## Lesson No. 5 - January 30, 2024",
   "main": "index.js",
   "scripts": {
-    "test": "parcel index_local_storage_manager.html"
+    "test": "parcel index_video_player.html"
   },
   "repository": {
     "type": "git",

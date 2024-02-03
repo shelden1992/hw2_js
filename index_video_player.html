@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video stream</title>
+    <script src="src/index_video_player.js" defer></script>
+</head>
+<body>
+<video id="videoPlayer" src="https://dsqqu7oxq6o1v.cloudfront.net/preview-9650dW8x3YLoZ8.mp4" height="500"
+       width="700"></video>
+<div>
+    <label for="timeline">Time: </label>
+    <span id="currentTime">00:00</span> / <span id="totalDuration">00:00</span>
+    <input id="timeline" type="range" min="0" step="0.1">
+    <div>
+        <button type="button" id="playPauseVideo">Play/Pause</button>
+        <button type="button" id="stopVideo">Stop</button>
+        <label for="volumeControl">Volume: </label>
+        <input id="volumeControl" type="range" min="0" max="1" step="0.1">
+    </div>
+</div>
+</body>
+</html>
